@@ -12,6 +12,7 @@ interface JsonSerializable
      *
      * @since 5.4.0
      */
+    public array dummy[];
     public function jsonSerialize();
 }
 
